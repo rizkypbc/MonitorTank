@@ -54,9 +54,9 @@ public class DetailActivity extends AppCompatActivity {
         entries.add (new Entry (14.747f,15));
         entries.add (new Entry (14.744f,16));
         entries.add (new Entry (14.741f,17));
-//        entries.add (new Entry (14.738f,18));
-//        entries.add (new Entry (14.735f,19));
-//        entries.add (new Entry (14.732f,20));
+        entries.add (new Entry (14.738f,18));
+        entries.add (new Entry (14.735f,19));
+        entries.add (new Entry (14.732f,20));
 //        entries.add (new Entry (14.729f,21));
 //        entries.add (new Entry (14.726f,22));
 //        entries.add (new Entry (14.723f,23));
@@ -87,9 +87,9 @@ public class DetailActivity extends AppCompatActivity {
         labels.add("2018/09/16");
         labels.add("2018/09/17");
         labels.add("2018/09/18");
-//        labels.add("2018/09/19");
-//        labels.add("2018/09/20");
-//        labels.add("2018/09/21");
+        labels.add("2018/09/19");
+        labels.add("2018/09/20");
+        labels.add("2018/09/21");
 //        labels.add("2018/09/22");
 //        labels.add("2018/09/23");
 //        labels.add("2018/09/24");
