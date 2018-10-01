@@ -61,9 +61,9 @@ public class DetailBalikpapanBaru extends AppCompatActivity {
         entries.add (new Entry (2180,24));
         entries.add (new Entry (1280,25));
         entries.add (new Entry (580,26));
-//        entries.add (new Entry (330,27));
-//        entries.add (new Entry (30,28));
-//        entries.add (new Entry (0,29));
+        entries.add (new Entry (330,27));
+        entries.add (new Entry (30,28));
+        entries.add (new Entry (0,29));
         LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
 
@@ -95,9 +95,9 @@ public class DetailBalikpapanBaru extends AppCompatActivity {
         labels.add("2018/10/25");
         labels.add("2018/10/26");
         labels.add("2018/10/27");
-//        labels.add("2018/10/28");
-//        labels.add("2018/10/29");
-//        labels.add("2018/10/30");
+        labels.add("2018/10/28");
+        labels.add("2018/10/29");
+        labels.add("2018/10/30");
         LineData data = new LineData (labels, dataSet);
         lineChart.setData (data);
         lineChart.setDescription ("Data Isi Tanki");
@@ -155,7 +155,750 @@ public class DetailBalikpapanBaru extends AppCompatActivity {
                             lineChart.setData (data);
                             lineChart.notifyDataSetChanged ();
                             lineChart.invalidate ();
+
+                        } else if (example4036.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4036);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4033.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4033);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4030.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4030);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4027.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4027);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4024.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4024);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4021.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4021);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4017.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4017);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 6));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4012.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4012);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4009.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4009);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4006.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4006);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4003.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4003);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example4000.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400014.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        }  else if (example400015.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400016.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+                            entries.add (new Entry (4000, 15));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+                            labels.add ("2018/10/16");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400017.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+                            entries.add (new Entry (4000, 15));
+                            entries.add (new Entry (4000, 16));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+                            labels.add ("2018/10/16");
+                            labels.add ("2018/10/17");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400018.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+                            entries.add (new Entry (4000, 15));
+                            entries.add (new Entry (4000, 16));
+                            entries.add (new Entry (4000, 17));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+                            labels.add ("2018/10/16");
+                            labels.add ("2018/10/17");
+                            labels.add ("2018/10/18");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400019.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+                            entries.add (new Entry (4000, 15));
+                            entries.add (new Entry (4000, 16));
+                            entries.add (new Entry (4000, 17));
+                            entries.add (new Entry (4000, 18));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+                            labels.add ("2018/10/16");
+                            labels.add ("2018/10/17");
+                            labels.add ("2018/10/18");
+                            labels.add ("2018/10/19");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
+                        } else if (example400020.equals (textViewDateBA.getText ().toString ())) {
+
+                            imageViewTanki.setImageResource (R.drawable.tanki_4000);
+
+                            ArrayList<Entry> entries = new ArrayList<> ();
+
+                            entries.add (new Entry (4039, 0));
+                            entries.add (new Entry (4036, 1));
+                            entries.add (new Entry (4033, 2));
+                            entries.add (new Entry (4030, 3));
+                            entries.add (new Entry (4027, 4));
+                            entries.add (new Entry (4024, 5));
+                            entries.add (new Entry (4021, 6));
+                            entries.add (new Entry (4017, 7));
+                            entries.add (new Entry (4012, 8));
+                            entries.add (new Entry (4009, 9));
+                            entries.add (new Entry (4006, 10));
+                            entries.add (new Entry (4003, 11));
+                            entries.add (new Entry (4000, 12));
+                            entries.add (new Entry (4000, 13));
+                            entries.add (new Entry (4000, 14));
+                            entries.add (new Entry (4000, 15));
+                            entries.add (new Entry (4000, 16));
+                            entries.add (new Entry (4000, 17));
+                            entries.add (new Entry (4000, 18));
+                            entries.add (new Entry (4000, 19));
+
+                            LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
+
+                            ArrayList<String> labels = new ArrayList<String> ();
+
+                            labels.add ("2018/10/1");
+                            labels.add ("2018/10/2");
+                            labels.add ("2018/10/3");
+                            labels.add ("2018/10/4");
+                            labels.add ("2018/10/5");
+                            labels.add ("2018/10/6");
+                            labels.add ("2018/10/7");
+                            labels.add ("2018/10/8");
+                            labels.add ("2018/10/9");
+                            labels.add ("2018/10/10");
+                            labels.add ("2018/10/11");
+                            labels.add ("2018/10/12");
+                            labels.add ("2018/10/13");
+                            labels.add ("2018/10/14");
+                            labels.add ("2018/10/15");
+                            labels.add ("2018/10/16");
+                            labels.add ("2018/10/17");
+                            labels.add ("2018/10/18");
+                            labels.add ("2018/10/19");
+                            labels.add ("2018/10/20");
+
+                            LineData data = new LineData (labels, dataSet);
+                            lineChart.setData (data);
+                            lineChart.notifyDataSetChanged ();
+                            lineChart.invalidate ();
+
                         }
+
                     }
                 }, year, month, day);
                 datePickerDialog.setTitle ("Please Select Date");

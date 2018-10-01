@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     void addData(){
 
         tankiArrayList = new ArrayList<> ();
-        tankiArrayList.add (new Tanki ("STO Balikpapan Centrum", R.drawable.tanki_14732));
-        tankiArrayList.add (new Tanki ("STO Balikpapan Baru", R.drawable.tanki_rec));
+        tankiArrayList.add (new Tanki ("STO Balikpapan Centrum", R.drawable.tanki_14705));
+        tankiArrayList.add (new Tanki ("STO Balikpapan Baru", R.drawable.tanki_0));
     }
 }
