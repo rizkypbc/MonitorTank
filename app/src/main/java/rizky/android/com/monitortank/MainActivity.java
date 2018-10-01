@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         tankiArrayList = new ArrayList<> ();
         tankiArrayList.add (new Tanki ("STO Balikpapan Centrum", R.drawable.tanki_14732));
-        tankiArrayList.add (new Tanki ("STO Balikpapan Baru", R.drawable.ic_launcher_background));
-        tankiArrayList.add (new Tanki ("STO Batu Ampar", R.drawable.ic_launcher_background));
+        tankiArrayList.add (new Tanki ("STO Balikpapan Baru", R.drawable.tanki_rec));
     }
 }

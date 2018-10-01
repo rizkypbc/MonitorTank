@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailBalikpapanBaru">
+
+    <ImageView
+        android:id="@+id/imageBA"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tanki_rec" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageBA"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="STO Balikpapan Baru"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textDateBA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tanggal"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnDatePickerBA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDateBA"
+        android:layout_marginLeft="5dp"
+        android:text="Cek Isi Tanki" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChartBA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnDatePickerBA"/>
+
+</RelativeLayout>

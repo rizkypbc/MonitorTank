@@ -39,9 +39,13 @@ public class AdapterTanki extends RecyclerView.Adapter<AdapterTanki.TankiViewHol
 
 //                Toast.makeText (v.getContext (), "Item is Clicked " + position, Toast.LENGTH_SHORT).show ();
 
-                if (position == 0){
+                if (position == 0) {
 
                     Intent intent = new Intent (v.getContext (), DetailActivity.class);
+                    v.getContext ().startActivity (intent);
+                } else if (position == 1) {
+
+                    Intent intent = new Intent (v.getContext (), DetailBalikpapanBaru.class);
                     v.getContext ().startActivity (intent);
                 }
             }
@@ -61,8 +65,8 @@ public class AdapterTanki extends RecyclerView.Adapter<AdapterTanki.TankiViewHol
 
         public TankiViewHolder(View itemView) {
             super (itemView);
-            textViewLokasi = (TextView)itemView.findViewById (R.id.textViewLokasi);
-            imageView = (ImageView)itemView.findViewById (R.id.imageTanki);
+            textViewLokasi = (TextView) itemView.findViewById (R.id.textViewLokasi);
+            imageView = (ImageView) itemView.findViewById (R.id.imageTanki);
 //            itemView.setOnClickListener (new View.OnClickListener () {
 //                @Override
 //                public void onClick(View v) {

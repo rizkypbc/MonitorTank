@@ -69,36 +69,36 @@ public class DetailActivity extends AppCompatActivity {
         LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
         ArrayList<String> labels = new ArrayList<String>();
-        labels.add("2018/09/1");
-        labels.add("2018/09/2");
-        labels.add("2018/09/3");
-        labels.add("2018/09/4");
-        labels.add("2018/09/5");
-        labels.add("2018/09/6");
-        labels.add("2018/09/7");
-        labels.add("2018/09/8");
-        labels.add("2018/09/9");
-        labels.add("2018/09/10");
-        labels.add("2018/09/11");
-        labels.add("2018/09/12");
-        labels.add("2018/09/13");
-        labels.add("2018/09/14");
-        labels.add("2018/09/15");
-        labels.add("2018/09/16");
-        labels.add("2018/09/17");
-        labels.add("2018/09/18");
-        labels.add("2018/09/19");
-        labels.add("2018/09/20");
-        labels.add("2018/09/21");
-//        labels.add("2018/09/22");
-//        labels.add("2018/09/23");
-//        labels.add("2018/09/24");
-//        labels.add("2018/09/25");
-//        labels.add("2018/09/26");
-//        labels.add("2018/09/27");
-//        labels.add("2018/09/28");
-//        labels.add("2018/09/29");
-//        labels.add("2018/09/30");
+        labels.add("2018/10/1");
+        labels.add("2018/10/2");
+        labels.add("2018/10/3");
+        labels.add("2018/10/4");
+        labels.add("2018/10/5");
+        labels.add("2018/10/6");
+        labels.add("2018/10/7");
+        labels.add("2018/10/8");
+        labels.add("2018/10/9");
+        labels.add("2018/10/10");
+        labels.add("2018/10/11");
+        labels.add("2018/10/12");
+        labels.add("2018/10/13");
+        labels.add("2018/10/14");
+        labels.add("2018/10/15");
+        labels.add("2018/10/16");
+        labels.add("2018/10/17");
+        labels.add("2018/10/18");
+        labels.add("2018/10/19");
+        labels.add("2018/10/20");
+        labels.add("2018/10/21");
+//        labels.add("2018/10/22");
+//        labels.add("2018/10/23");
+//        labels.add("2018/10/24");
+//        labels.add("2018/10/25");
+//        labels.add("2018/10/26");
+//        labels.add("2018/10/27");
+//        labels.add("2018/10/28");
+//        labels.add("2018/10/29");
+//        labels.add("2018/10/30");
         LineData data = new LineData (labels, dataSet);
         lineChart.setData (data);
         lineChart.setDescription ("Data Isi Tanki");
@@ -136,14 +136,14 @@ public class DetailActivity extends AppCompatActivity {
                                 + "-" + String.valueOf (selectedday);
                         textViewTanggal.setText (date);
 
-                        String  example792 = "2018-9-1" , example789 = "2018-9-2", example786 = "2018-9-3", example783 = "2018-9-4" ,
-                                example780 = "2018-9-5", example777 = "2018-9-6", example774 = "2018-9-7", example771 = "2018-9-8",
-                                example768 = "2018-9-9", example765 = "2018-9-10", example762 = "2018-9-11", example759 = "2018-9-12",
-                                example756 = "2018-9-13", example753 = "2018-9-14", example750 = "2018-9-15", example747 = "2018-9-16",
-                                example744 = "2018-9-17", example741 = "2018-9-18", example738 = "2018-9-19", example735 = "2018-9-20",
-                                example732 = "2018-9-21", example729 = "2018-9-22", example726 = "2018-9-23", example723 = "2018-9-24",
-                                example720 = "2018-9-25", example717 = "2018-9-26", example714 = "2018-9-27", example711 = "2018-9-28",
-                                example708 = "2018-9-29", example705 = "2018-9-30";
+                        String  example792 = "2018-10-1" , example789 = "2018-10-2", example786 = "2018-10-3", example783 = "2018-10-4" ,
+                                example780 = "2018-10-5", example777 = "2018-10-6", example774 = "2018-10-7", example771 = "2018-10-8",
+                                example768 = "2018-10-9", example765 = "2018-10-10", example762 = "2018-10-11", example759 = "2018-10-12",
+                                example756 = "2018-10-13", example753 = "2018-10-14", example750 = "2018-10-15", example747 = "2018-10-16",
+                                example744 = "2018-10-17", example741 = "2018-10-18", example738 = "2018-10-19", example735 = "2018-10-20",
+                                example732 = "2018-10-21", example729 = "2018-10-22", example726 = "2018-10-23", example723 = "2018-10-24",
+                                example720 = "2018-10-25", example717 = "2018-10-26", example714 = "2018-10-27", example711 = "2018-10-28",
+                                example708 = "2018-10-29", example705 = "2018-10-30";
 
 
                         if (example744.equals (textViewTanggal.getText ().toString ())) {
@@ -172,23 +172,23 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -221,22 +221,22 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -268,21 +268,21 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -313,20 +313,20 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -356,19 +356,19 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -397,18 +397,18 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -436,17 +436,17 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -473,16 +473,16 @@ public class DetailActivity extends AppCompatActivity {
                             LineDataSet dataSet = new LineDataSet (entries, "Isi Tanki (liter)");
 
                             ArrayList<String> labels = new ArrayList<String>();
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -509,15 +509,15 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
 
 
                             LineData data = new LineData (labels, dataSet);
@@ -544,14 +544,14 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
 
 
                             LineData data = new LineData (labels, dataSet);
@@ -577,13 +577,13 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -607,12 +607,12 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -635,11 +635,11 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -661,10 +661,10 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -685,9 +685,9 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -707,8 +707,8 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -727,7 +727,7 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
+                            labels.add("2018/10/1");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -763,24 +763,24 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -817,25 +817,25 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -873,26 +873,26 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -931,27 +931,27 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -991,28 +991,28 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1053,29 +1053,29 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1117,30 +1117,30 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1183,31 +1183,31 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1251,32 +1251,32 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
-                            labels.add("2018/09/26");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
+                            labels.add("2018/10/26");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1321,33 +1321,33 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
-                            labels.add("2018/09/26");
-                            labels.add("2018/09/27");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
+                            labels.add("2018/10/26");
+                            labels.add("2018/10/27");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1393,34 +1393,34 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
-                            labels.add("2018/09/26");
-                            labels.add("2018/09/27");
-                            labels.add("2018/09/28");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
+                            labels.add("2018/10/26");
+                            labels.add("2018/10/27");
+                            labels.add("2018/10/28");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1467,35 +1467,35 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
-                            labels.add("2018/09/26");
-                            labels.add("2018/09/27");
-                            labels.add("2018/09/28");
-                            labels.add("2018/09/29");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
+                            labels.add("2018/10/26");
+                            labels.add("2018/10/27");
+                            labels.add("2018/10/28");
+                            labels.add("2018/10/29");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
@@ -1543,36 +1543,36 @@ public class DetailActivity extends AppCompatActivity {
 
                             ArrayList<String> labels = new ArrayList<String>();
 
-                            labels.add("2018/09/1");
-                            labels.add("2018/09/2");
-                            labels.add("2018/09/3");
-                            labels.add("2018/09/4");
-                            labels.add("2018/09/5");
-                            labels.add("2018/09/6");
-                            labels.add("2018/09/7");
-                            labels.add("2018/09/8");
-                            labels.add("2018/09/9");
-                            labels.add("2018/09/10");
-                            labels.add("2018/09/11");
-                            labels.add("2018/09/12");
-                            labels.add("2018/09/13");
-                            labels.add("2018/09/14");
-                            labels.add("2018/09/15");
-                            labels.add("2018/09/16");
-                            labels.add("2018/09/17");
-                            labels.add("2018/09/18");
-                            labels.add("2018/09/19");
-                            labels.add("2018/09/20");
-                            labels.add("2018/09/21");
-                            labels.add("2018/09/22");
-                            labels.add("2018/09/23");
-                            labels.add("2018/09/24");
-                            labels.add("2018/09/25");
-                            labels.add("2018/09/26");
-                            labels.add("2018/09/27");
-                            labels.add("2018/09/28");
-                            labels.add("2018/09/29");
-                            labels.add("2018/09/30");
+                            labels.add("2018/10/1");
+                            labels.add("2018/10/2");
+                            labels.add("2018/10/3");
+                            labels.add("2018/10/4");
+                            labels.add("2018/10/5");
+                            labels.add("2018/10/6");
+                            labels.add("2018/10/7");
+                            labels.add("2018/10/8");
+                            labels.add("2018/10/9");
+                            labels.add("2018/10/10");
+                            labels.add("2018/10/11");
+                            labels.add("2018/10/12");
+                            labels.add("2018/10/13");
+                            labels.add("2018/10/14");
+                            labels.add("2018/10/15");
+                            labels.add("2018/10/16");
+                            labels.add("2018/10/17");
+                            labels.add("2018/10/18");
+                            labels.add("2018/10/19");
+                            labels.add("2018/10/20");
+                            labels.add("2018/10/21");
+                            labels.add("2018/10/22");
+                            labels.add("2018/10/23");
+                            labels.add("2018/10/24");
+                            labels.add("2018/10/25");
+                            labels.add("2018/10/26");
+                            labels.add("2018/10/27");
+                            labels.add("2018/10/28");
+                            labels.add("2018/10/29");
+                            labels.add("2018/10/30");
 
                             LineData data = new LineData (labels, dataSet);
                             lineChart.setData (data);
